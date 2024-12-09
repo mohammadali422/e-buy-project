@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="shortcut icon" href="images/fav-icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+    <section id="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class=" col-sm-3 col-lg-6 ">
+                    <div class="left-menu">
+                        <ul>
+                            <li><a href="#">eng <i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                            <li><a href="#">usd $  <i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                            <li><a href="#">Toll Free: +8801571254426<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-8">
+                    <div class="right-menu me-auto">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Wishlist</a></li>
+                            <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i> My Account</a></li>
+                            <li><a href="#">Log in / Register</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- navbar part start -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo "></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <!-- code pen -->
+             <div id="hamburger-menu"></div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="index.html">men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Accesorries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">contact</a>
+              </li>
+            </ul>
+            
+            <div class="nav-right d-flex">
+            
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" id="searchBox" placeholder="Search in a product" aria-label="Search">
+                    <button class="btn btn-outline-success" onclick="searchProduct()" type="submit">Search</button>
+                  </form>
+                <div class="nav-last">
+                    <a class="nav-link" href="#"> <i class="fa fa-shopping-bag" aria-hidden="true"></i> <span> 2 items</span> </a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar part end -->
+   
+      <!-- feature part start -->
+      <section id="feature">
+        <div class="container">
+            <div class="feature-items">
+                <div class="row ">
+                    <div class="col-lg-3 col-sm-5">
+                        <div class="feature-item1 ">
+                            <div class="feature-img1">
+                                <img src="images/f3-img.jpg" alt="l-pro-img1" class="w-100 img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-sm-7">
+                        <div class="f-right-content">
+                            <div class="review-text">
+                                <h5>Mens Shirt</h5>
+                                <h6>bd shop</h6>
+                                <p >address: 152,mirpur road, dhaka-1211</p>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <p>price :$99.00</p>
+                                <div class="f-middle-text">
+                                    <label class="d1" for="">Description</label>
+                                    <p>Wash Instruction: Regular Wash. <br>
+                                        Product Details: This Cotton men’s shirt features screen-print work. <br>
+                                         <br> CHEST : M=38, L=40, XL=42 HEIGHT: M=26.5, L=27.5, XL=28.5</p>
+                                </div>
+                                <div class="f-shere-text">
+                                    <h6>color</h6>
+                                    Black
+                                    <input type="checkbox" name="color" id="">
+                                    Red
+                                    <input type="checkbox" name="color" id="">
+                                    White
+                                    <input type="checkbox" name="color" id="">
+                                    
+                                    <p><button type="submit">Add to Cart</button></p>
+                                  
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- feature part end -->
+  
+    <!-- footer part start -->
+    <footer id="fotter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="fotter-item1">
+                        <div class="fotter-item1-logo">
+                            <img src="images/footer-logo.png" alt="logo">
+                        </div>
+                        <div class="fotter-item1-content">
+                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</h6>
+                            <p>magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="footer-item2">
+                        <div class="footer-item2-header">
+                            <h4>Contact US</h4>
+                        </div>
+                        <div class="footer-item2-content">
+                            <div class="row">
+                                <div class="col-lg-2 col-2">
+                                    <div class="footer-item2-left">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="footer-item2-left">
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="footer-item2-left">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="footer-item2-left">
+                                        <i class="fa fa-globe" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 col-10">
+                                    <div class="footer-item2-right">
+                                        <p>01,Kamrangir char, Dhaka-1211</p>
+                                    </div>
+                                    <div class="footer-item2-right">
+                                        <p>+8801571254426,</p>
+                                    </div>
+                                    <div class="footer-item2-right">
+                                        <p>info@e-buy.com, e-buy@info.com</p>
+                                    </div>
+                                    <div class="footer-item2-right">
+                                        <p>www.e-buy.com, www.infobuy.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2">
+                    <div class="footer-item3">
+                        <div class="footer-item3-header">
+                            <h4>my account</h4>
+                        </div>
+                        <div class="footer-item3-content">
+                            <div class="footer-item3-text">
+                                <p><a href="#">My Account</a></p>
+                            </div>
+                            <div class="footer-item3-text">
+                                <p><a href="#">Wishlist </a></p>
+                            </div>
+                            <div class="footer-item3-text">
+                                <p><a href="#">Shopping Cart </a></p>
+                            </div>
+                            <div class="footer-item3-text">
+                                <p><a href="#">Compare </a></p>
+                            </div>
+                            <div class="footer-item3-text">
+                                <p><a href="#">Checkout </a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-2">
+                    <div class="fotter-item4">
+                        <div class="fotter-item4-header">
+                            <div class="footer-item3-header">
+                                <h4>Sign Up For Newsletter</h4>
+                            </div>
+                        </div>
+                        <div class="fotter-item4-form">
+                            <form action="#" method="post">
+                                <input type="email" placeholder="Your E-mail">
+                                <button type="submit">Submit</button>
+                              </form>
+                        </div>
+                        <div class="fotter-item4-buttom">
+                            <div class="fotter-item4-mid">
+                                <h5>Follow me on</h5>
+                            </div>
+                            <div class="fotter-item4-icon d-flex">
+                                <div class="fb-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="fb-icon">
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="fb-icon">
+                                    <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="fb-icon">
+                                    <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="fb-icon">
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+       
+    </footer>
+    <!-- footer part end -->
+    <!-- copyright part start -->
+    <section id="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-sm-7">
+                    <div class="copy-right-left">
+                        <p>Copyright &copy; 2024. All right reserved by <span><a href="#">E-BUY</a></span></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-5">
+                    <div class="copy-end">
+                        <a href="#">
+                            <img src="images/copyright-img.png" alt="copyright-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="back-to-top">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <!-- copyright part end -->
+    <script>
+        function searchProduct() {
+          const query = document.getElementById("searchBox").value.toLowerCase();
+          const products = document.querySelectorAll(".product");
+    
+          products.forEach((product) => {
+            const name = product.getAttribute("data-name").toLowerCase();
+            if (name.includes(query)) {
+              product.classList.remove("hidden");
+            } else {
+              product.classList.add("hidden");
+            }
+          });
+    
+          // If no product is visible, show an alert
+          const visibleProducts = document.querySelectorAll(".product:not(.hidden)");
+          if (visibleProducts.length === 0) {
+            alert("No products found!");
+          }
+        }
+      </script>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/mixitup.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
